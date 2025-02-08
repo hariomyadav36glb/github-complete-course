@@ -11,3 +11,5 @@ function syMyName()
 
 let x = 20;
 console.log(x);
+
+console.log(x+num);
