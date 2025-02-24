@@ -1,15 +1,5 @@
-console.log("hi");
+const element = React.createElement("h1",{Id:"next",color:"pink"},"hello coder army");
 
-let name ="hariom yadav";
-
-let age = 20;
-
-function syMyName()
-{
-    console.log("Hariom Yadav");
-}
-
-let x = 20;
-console.log(x);
-
-console.log(x+num);
+// ReactDOM.render(element,document.getElementById('root'))
+const root= ReactDOM.createRoot(document.getElementById('root'));
+root.render(element);
